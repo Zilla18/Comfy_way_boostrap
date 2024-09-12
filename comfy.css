@@ -1,0 +1,45 @@
+.text-color {
+  color: rgba(68, 206, 187, 0.925);
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 0.3rem 0;
+}
+
+.bg-body--tertiary {
+  background-color: rgb(219, 233, 245);
+}
+
+.bg--image {
+  background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)),
+    url(//images.unsplash.com/photo-1533105079780-92b9be482077?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fHw%3D);
+  background-size: cover;
+  height: 100vh;
+}
+/* Media Quarry */
+@media screen and (min-width: 700px) {
+  .bg--image {
+    height: 100vh;
+    background-position: center;
+  }
+}
+
+.Paragraph--text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  max-width: 500px;
+}
+
+.icons--sizing {
+  height: 20px;
+  width: 20px;
+}
+
+.font--text {
+  font-size: 0.8rem;
+}
+
+.testing {
+  width: fit-content !important;
+}
